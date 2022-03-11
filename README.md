@@ -1,37 +1,55 @@
-# TMPL_Webpack_Nginx
-webpack nginx
+# DevOps_Middlewares
 
-## Webpack
-npm install webpack webpack-cli -D    
-npm install webpack-dev-server -D  
-### html
-npm install html-webpack-plugin -D  
-### css
-npm install css-loader style-loader less-loader less -D  
-npm install mini-css-extract-plugin -D  
-npm install postcss-loader autoprefixer -D  
-npm install css-minimizer-webpack-plugin -D  
-### js
-npm install babel-loader @babel/core @babel/preset-env  -D  
-npm install @babel/plugin-proposal-decorators @babel/plugin-proposal-class-properties -D  
-npm install @babel/plugin-transform-runtime @babel/runtime -D  
-npm install @babel-polyfill -D  
-npm install eslint eslint-loader -D  
-npm install expose-loader -D  
-### image
-npm install file-loader -D  
-npm install html-withimg-loader -D  
-npm install url-loader -D  
-### other
-内置 source-map eval-source-map cheap-module-source-map  
-npm install clean-webpack-plugin -D  
-npm install copy-webpack-plugin -D  
-内部插件 bannerPlugin(例如插版权声明)  
-### 环境
-npm install webpack-merge -D  
-### 时间相关的库
-npm install moment -D  
-### 多线程打包
-npm install happypack -D  
-### 懒加载
-npm install @babel/plugin-syntax-dynamic-import -D  
+## 开发Development
+  - Redis+Jedis+Redission
+  - Kafka
+  - Zookeeper
+  - Mysql
+  - Seata
+  - Canal
+  - Neo4j
+  - Elasticsearch
+  - Spark
+  - Hdfs+Hadoop
+
+## 运维部署Operation
+### Build&Package
+  - Maven(空)
+  - Npm(空)
+  - Pypi(空)
+  - Webpack
+### Cache
+  - Memcache(空)
+  - Redis(空)
+### CoordinateService
+  - Zookeeper(空)
+### Data
+  - Hadoop(空)
+  - Spark(空)
+  - Flink(空)
+  - Scrapy(空)
+### Database
+  - MongoDB(空)
+  - Mysql(待验证)
+  - Neo4j(空)
+  - Flyway数据迁移(空)
+### MessageQueue
+  - Kafka(待验证)
+  - RocketMQ(空)
+### Monitor&Log&Tracing
+  - EFK日志采集(空)
+  - Prometheus&Grafana(空)
+  - Zabbix(空)
+  - Skywalking(空)
+### Proxy
+  - Haproxy(待验证)
+  - Nginx(待验证)
+### Test
+  - Junit单元测试(空)
+  - SonarQube代码质量检查(空)
+  - Jmeter接口&性能测试(空)
+  - Selenium前端测试(空)
+### WebServer
+  - Tomcat(空)
+  - uWSGI(待验证)
+  - WebLogic(空)

@@ -5,13 +5,13 @@ import (
 	"encoding/json"
 	"fmt"
 	"image/png"
-	getCaptcha "microservice1/web/proto/getCaptcha" // 给包起别名
+	getCaptcha "my-microservice1/web/proto/getCaptcha" // 给包起别名
 	"my-microservice1/web/utils"
 	"net/http"
 	"path"
 
-	"microservice1/web/model"
-	userMicro "microservice1/web/proto/user" // 给包起别名
+	"my-microservice1/web/model"
+	userMicro "my-microservice1/web/proto/user" // 给包起别名
 
 	"github.com/afocus/captcha"
 	"github.com/gin-gonic/gin"

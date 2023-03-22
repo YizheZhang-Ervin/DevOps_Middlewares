@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	hello "../greeter/srv/proto/hello"
+	hello "./proto/hello"
 	"go-micro.dev/v4"
 )
 

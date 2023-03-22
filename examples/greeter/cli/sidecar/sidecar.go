@@ -6,7 +6,7 @@ import (
 	"io"
 	"net/http"
 
-	hello "../../greeter/srv/proto/hello"
+	hello "../proto/hello"
 	"github.com/golang/protobuf/proto"
 )
 

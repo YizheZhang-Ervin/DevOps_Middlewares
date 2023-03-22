@@ -2,12 +2,15 @@
 
 ## Coding
 1. my-gomicro
-- web框架 gin
-- 配置 viper
+- 配置
+    - viper
+    - gopkg.in/ini.v1
 - 微服务 gomicro
 - 服务发现 etcd/k8s
 - 服务熔断/负载均衡 wrapper(hystrix&rate)
 - 网关
+    - api gateway
+    - web框架 gin
 - 中间件
     - mysql(gorm&validate)
     - redis(redigo)
@@ -22,7 +25,7 @@
 - 日志
 
 2. 服务治理
-- Serverless
+- Serverless (k8s的kubeless)
 - Istio
 - 各中间件operator
 

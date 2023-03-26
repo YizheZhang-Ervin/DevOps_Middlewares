@@ -8,12 +8,12 @@
 - 服务熔断 hystrix
 - 数据库 gorm + mysql
 - 消息队列 amqp + rabbitMQ
+- 会话状态 cookie&session
 - 鉴权 jwt
 - 加密 crypto
 - 跨域 cors
 - 日志
 - 全局异常
-- 会话状态 cookie&session
 
 2. 功能
 - 用户注册登录(jwt鉴权)

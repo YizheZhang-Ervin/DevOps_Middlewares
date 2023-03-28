@@ -26,8 +26,8 @@
     - viper
     - gopkg.in/ini.v1
 - 服务治理
-    - service mesh(istio&envoy)
-    - serverless(kubeless)
+    - service mesh(istio&envoy)【暂无】
+    - serverless(kubeless)【暂无】
 - 微服务 
     - gomicro
     - gokit【暂无】

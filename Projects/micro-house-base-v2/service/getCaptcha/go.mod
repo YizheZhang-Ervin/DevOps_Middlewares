@@ -1,0 +1,1 @@
+module micro-house-base-v2/service/getCaptcha

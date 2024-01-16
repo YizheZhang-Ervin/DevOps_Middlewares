@@ -21,6 +21,7 @@
 
 ## Projects
   - micro-house-base-v2
+  - micro-house-base-v3
   - micro-house
   - GoMicro todolist
   - GRPC todolist
